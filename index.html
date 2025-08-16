@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            margin: auto;
+            padding: auto;
+            height: 1000px;
+            width: auto;
+            background-color: beige;
+        }
+
+        #heading {
+            height: 85px;
+            width: auto;
+            background-color: rgb(155 47 73);
+            text-align: center;
+            font-size: Xx-large;
+            color: white;
+            margin-top: -45px;
+            text-shadow: 2px 2px blue;
+
+        }
+
+        #navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 40px;
+            background-color: rgb(120 30 30);
+            position: sticky;
+            top: 0;
+            z-index: 2;
+        }
+
+        #navbar a {
+            color: #ffd0e0;
+            text-decoration: none;
+            font-size: 25px;
+            font-family: rgb(191 79 165);
+            position: sticky;
+        }
+
+        #navbar a:hover {
+            color: white;
+            opacity: 0.5;
+        }
+
+        #background {
+            height: 270px;
+            width: auto;
+            position: relative;
+            background-image: url("https://cdn.pixabay.com/photo/2022/05/31/07/01/island-7232868_1280.png");
+            background-position: center;
+            background-attachment: scroll;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: antiquewhite;
+
+        }
+
+        #name {
+            height:100%;
+            width: 100%;
+            position: absolute;
+            margin-top: 53px;
+            font-size: 41px;
+            color: #f8aa00;
+            font-family: math;
+            text-shadow: 2px 2px #1712b7;
+           
+        }
+
+        #photo {
+            height: 150px;
+            width: 150px;
+            border-radius: 90px;
+            position: absolute;
+            margin-left: 44%;
+            margin-top: 190px;
+            background-image: url("mukesh.JPG");
+            background-attachment: scroll;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #about {
+            margin-top: 80px;
+            text-align: center;
+        }
+
+        #about h1 {
+            color: rgb(33, 26, 240);
+            text-shadow: 1px 0px deepskyblue;
+        }
+
+        #education {
+            margin-top: 60px;
+            text-align: center;
+        }
+
+        #education h1 {
+            color: rgb(33, 26, 240);
+            text-shadow: 1px 0px deepskyblue;
+        }
+
+        #certificate {
+            margin-top: 60px;
+            text-align: center;
+        }
+
+        #certificate h1 {
+            color: rgb(33, 26, 240);
+            text-shadow: 1px 0px deepskyblue;
+        }
+
+        #contact {
+            height: 400px;
+            width: auto;
+            text-align: center;
+        }
+
+        #contact h1 {
+            color: rgb(33, 26, 240);
+            margin-top: 20px;
+            text-shadow: 1px 0px deepskyblue;
+        }
+
+        button {
+            margin-top: 20px;
+        }
+
+        .paragraph {
+            font-family: cursive;
+        }
+
+        #form {}
+
+        #cname {
+            margin: 10px;
+            height: 20px;
+            width: 450px;
+            padding: 12px;
+            border: 2px solid green;
+
+        }
+
+        #cmail {
+            margin: 10px;
+            height: 20px;
+            width: 450px;
+            padding: 12px;
+            border: 2px solid green;
+
+        }
+
+        #message {
+            margin: 10px;
+            height: 20px;
+            width: 450px;
+            padding: 12px;
+            border: 2px solid green;
+
+        }
+
+        #submit {
+            height: 27px;
+            width: 218px;
+            padding: 37px;
+            background-color: rgb(211, 74, 74);
+            color: rgb(0, 0, 0);
+
+        }
+
+        #submit:hover {
+            cursor: pointer;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="heading">
+            <h1>My Portfolio</h1>
+        </div>
+        <div id="navbar">
+            <div class="item" id="item-1"><a href="#">Home</a></div>
+            <div class="item" id="item-2"><a href="#about">About us</a></div>
+            <div class="item" id="item-3"><a href="#education">Education</a></div>
+            <div class="item" id="item-4"><a href="#certificate">Certificates</a></div>
+            <div class="item" id="item-5"><a href="#contact">Contact us</a></div>
+        </div>
+        <section id="background">
+            <div id="name">
+                <marquee behavior="left" direction="left">
+                    <h2>MUKESH YADAV</h2>
+                </marquee>
+            </div>
+            <div id="photo"></div>
+        </section>
+        <section id="about">
+            <h1>About Us</h1>
+            <p class="paragraph">Myself <b>MUKESH YADAV </b> from bhadohi district of utter pradesh .
+                I am very passionate about my studies.I likes to listen to the song of old era.
+                Football is my favorite game.Displine and smart work is strenth of my life.I always look at the positive
+                parts of the things.
+                My short term goal is to be expert in my field and my long term goal is to be a good human being whereas
+                I'm able to help needy and poor family's and contribute my skill in the well being of nation . My
+                hobbies are playing & watching Cricket and Travelling.
+
+        </section>
+        <section id="education">
+            <h1>Education</h1>
+            <p><b>Degree : <i>bechelor of technology</i></b></p>
+            <p><b>Institute Name : SR Institute of management and technology</b></p>
+            <p><i>Month YYYY-Month YYYY :2023-2027</i></p>
+            <P class="paragraph"> I have completed my schooling from st. mary's school bhadohi which is a english medium
+                school.I have
+                completed my high schooling in <i>2021</i> with the aggregate <b>89%</b> and Intermediate in <i>2023</i>
+                with the aggregate <b>85%</b>. afterwards, I gave the <b>JEE EXAM</b>.currently,I am persuing
+                <i>bechelor of technology</i> from <b>SRIMT</b>
+            </P>
+
+        </section>
+        <section id="certificate">
+            <h1>Certificates</h1>
+            <p>I have done certification Course of <i>python,html,css,javascript,java etc.</i></p>
+            <P class="paragraph">During my school time my have participate in many compitition and activity.I have
+                participated in <b>800 metre</b> race and <b>400 metre</b> race as well as in the <b>reley race</b> and
+                won silver medals.I have participated in <I>hindi olympiads</I> and won the <b>Gold Medal</b>.</P>
+
+        </section>
+        <section id="contact">
+            <h1>Contact Us</h1>
+            <form action="#" id="form">
+                <!-- <label>NAME : </label> -->
+                <input type="text" placeholder=" ENTER YOUR NAME" id="cname">
+                <br>
+                <!-- <label>EMAIL :  </label> -->
+                <input type="email" placeholder="ENTER YOUR EMAIL" id="cmail">
+                <br>
+                <!-- <label >Message :</label> -->
+                <textarea name="MESSAGE" id="message" placeholder="ENTER YOUR MESSAGE"></textarea>
+                <br>
+                <input type="submit" value="SUBMIT" id="submit">
+            </form>
+
+        </section>
+        </main>
+</body>
+
+</html>
+
+
+
+
+</section>
+</header>
+</body>
+
+</html>
